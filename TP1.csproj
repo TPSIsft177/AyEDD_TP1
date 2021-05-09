@@ -4,5 +4,22 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
-
+    
+    <ItemGroup>
+        <Compile Include="\Common\Exercise.cs">
+            <Link>Exercise.cs</Link>
+        </Compile>
+        <Compile Include="\Common\Reader.cs">
+            <Link>Reader.cs</Link>
+        </Compile>
+        <Compile Include="\Exercise1\Exercise1.cs">
+            <Link>Exercise1.cs</Link>
+        </Compile>
+        <Compile Include="\Exercise1\Exercise2.cs">
+            <Link>Exercise2.cs</Link>
+        </Compile>
+        <Compile Include="\Exercise1\Exercise3.cs">
+            <Link>Exercise3.cs</Link>
+        </Compile>
+    </ItemGroup>
 </Project>

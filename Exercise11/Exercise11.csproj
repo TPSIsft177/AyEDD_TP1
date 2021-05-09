@@ -7,11 +7,10 @@
     
     <ItemGroup>
         <Compile Include="..\Common\Exercise.cs">
-          <Link>Exercise.cs</Link>
+            <Link>Exercise.cs</Link>
         </Compile>
         <Compile Include="..\Common\Reader.cs">
             <Link>Reader.cs</Link>
         </Compile>
     </ItemGroup>
-
 </Project>
