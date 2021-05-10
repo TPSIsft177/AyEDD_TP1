@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="..\Common\Exercise.cs">
+        <Compile Include="..\Common\IExercise.cs">
             <Link>Exercise.cs</Link>
         </Compile>
         <Compile Include="..\Common\Reader.cs">
