@@ -30,8 +30,8 @@ namespace Exercise3
         
         static void Main(string[] args)
         {
-            Exercise3 exercise3 = new Exercise3();
-            exercise3.Execute();
+            IExercise exercise = new Exercise3();
+            exercise.Execute();
         }
     }
 }

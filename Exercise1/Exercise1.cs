@@ -16,8 +16,8 @@ namespace Exercise1
         }
         static void Main(string[] args)
         {
-            Exercise1 exercise1 = new Exercise1();
-            exercise1.Execute();
+            IExercise exercise = new Exercise1();
+            exercise.Execute();
         }
     }
 }
