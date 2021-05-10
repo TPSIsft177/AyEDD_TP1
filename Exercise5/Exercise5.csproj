@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\Common\IExercise.cs">
+            <Link>Exercise.cs</Link>
+        </Compile>
+        <Compile Include="..\Common\Reader.cs">
+            <Link>Reader.cs</Link>
+        </Compile>
+    </ItemGroup>
+</Project>
